@@ -28,8 +28,6 @@ The following tasks have been completed in the current version of this project:
   - Survival analysis based on gender, passenger class, and age groups
 - Data visualization:
   - Bar plots
-  - Count plots
-  - Distribution plots to identify patterns and trends
 
 ## Key Observations (Initial)
 - Survival rates differ significantly across passenger classes
