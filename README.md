@@ -2,7 +2,7 @@
 
 ## Overview
 This project focuses on exploratory data analysis (EDA) of the Titanic dataset using Python.  
-The work is being done as part of an internship and is **actively evolving**, with new concepts and analyses added daily.
+The work is being done as part of an internship.
 
 ## Objective
 To understand the Titanic dataset, clean the data, perform exploratory analysis, and derive insights related to passenger survival using Python-based data analysis techniques.
@@ -14,35 +14,42 @@ To understand the Titanic dataset, clean the data, perform exploratory analysis,
 - Matplotlib
 - Seaborn
 
-## Work Done So Far
-The following tasks have been completed in the current version of this project:
-
-- Loaded and inspected the Titanic dataset
-- Worked with Pandas DataFrames for data manipulation
-- Data cleaning:
-  - Handling missing values
-  - Basic data type checks
-- Binning:
-  - Created bins for numerical features (such as age/fare) to analyze grouped trends
-- Exploratory Data Analysis (EDA):
-  - Survival analysis based on gender, passenger class, and age groups
-- Data visualization:
-  - Bar plots
-
-## Key Observations (Initial)
-- Survival rates differ significantly across passenger classes
-- Female passengers had a higher survival rate compared to males
-- Certain age groups showed better survival probabilities
-
 ## Dataset
-- Titanic Dataset (commonly sourced from Kaggle)
+- Titanic Dataset (Kaggle)
+![Dataset Preview](ScreenShots/dataset_preview.png)
 
-## Project Status
-🚧 **In Progress**
+## Steps Performed:
+### 1. Data Loading & Inspection
+- Loaded the dataset into Pandas DataFrames
+- Checked shape, columns, data types, and basic statistics
+- ![Missing values preview](ScreenShots/missing_values.png)
 
-This notebook will be updated as the internship progresses.  
-Upcoming updates may include:
-- Additional feature engineering
-- More advanced visualizations
-- Deeper statistical insights
-- Further analysis concepts introduced during the internship
+### 2. Data Cleaning
+- Handled missing values
+- Verified and corrected data types where required
+- Removed or adjusted irrelevant or inconsistent data
+
+### 3. Feature Engineering & Binning
+- Applied binning on numerical variables (such as age and fare)
+- Created categorical groups to analyze survival trends more effectively
+- ![Binning preview](ScreenShots/binning.png)
+
+### 4. Exploratory Data Analysis (EDA)
+- Analyzed survival rates across:
+  - Gender
+  - Passenger class
+  - Age groups
+- Used DataFrame operations to compute survival distributions
+- ![Survival comparison preview](ScreenShots/survival_comparison.png)
+
+### 5. Data Visualization
+- Bar plots and count plots to compare survival rates
+- Distribution plots to understand feature spread
+- Visual comparisons to highlight key patterns in the data
+- ![Final Dashboard preview](ScreenShots/survival_comparison.png)
+
+## Key Insights
+- Female passengers had a significantly higher survival rate than male passengers
+- Passengers in higher classes had better survival outcomes
+- Certain age groups showed higher survival probabilities
+- Binning helped reveal clearer survival trends across numerical features
